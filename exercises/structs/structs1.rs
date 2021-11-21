@@ -4,7 +4,7 @@
 // I AM NOT DONE
 
 struct ColorClassicStruct {
-    // TODO: Something goes here
+
 }
 
 struct ColorTupleStruct(/* TODO: Something goes here */);
@@ -19,7 +19,7 @@ mod tests {
     #[test]
     fn classic_c_structs() {
         // TODO: Instantiate a classic c struct!
-        // let green =
+
 
         assert_eq!(green.name, "green");
         assert_eq!(green.hex, "#00FF00");
@@ -28,7 +28,7 @@ mod tests {
     #[test]
     fn tuple_structs() {
         // TODO: Instantiate a tuple struct!
-        // let green =
+        let green = ("green", "#00FF0");
 
         assert_eq!(green.0, "green");
         assert_eq!(green.1, "#00FF00");
